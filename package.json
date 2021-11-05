@@ -1,0 +1,26 @@
+{
+  "name": "news-at-a-glance",
+  "version": "1.0.0",
+  "description": "A simple webapp that takes news headlines with Express.js and print them in a coincise manner",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KengiCo/news-at-a-glance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KengiCo/news-at-a-glance/issues"
+  },
+  "homepage": "https://github.com/KengiCo/news-at-a-glance#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "update": "^0.7.4"
+  }
+}
